@@ -4,7 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Edit here with the names of your latex file and directory (can use ".")
       DIR: .
       FILE: cv
     steps:
