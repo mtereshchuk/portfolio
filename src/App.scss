@@ -1,0 +1,26 @@
+/* Use Roboto Slab font: https://fonts.google.com/specimen/Roboto+Slab */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+$font: "Roboto Slab", serif;
+
+html {
+  overflow: hidden;
+  font-size: 12px;
+  font-family: $font;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+.app {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
