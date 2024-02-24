@@ -14,7 +14,7 @@ export const buttonsData = [
     label: "Linkedin",
   },
   {
-    href: "https://drive.google.com/file/d/1tb2hTQ1y5oH6cMHSnkM6jDVlbXtThnth/",
+    href: "https://github.com/mtereshchuk/",
     aria: "Visit Google Drive to view and download my resume",
     icon: <Resume />,
     label: "Resume",
