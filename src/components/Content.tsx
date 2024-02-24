@@ -47,8 +47,8 @@ const Content = () => {
   const { theme } = useContext(AppContext);
   return (
     <>
-      <C.Name theme={theme} aria-label="My name is Gal Birka">
-        <FadeInDownDiv>Gal Birka</FadeInDownDiv>
+      <C.Name theme={theme} aria-label="My name is Maksim Tereshchuk">
+        <FadeInDownDiv>Maksim Tereshchuk</FadeInDownDiv>
       </C.Name>
 
       <C.Title theme={theme} aria-label="I am a software engineer">

@@ -2,13 +2,13 @@ import { Email, Github, Linkedin, Resume } from "../icons";
 
 export const buttonsData = [
   {
-    href: "https://github.com/birkagal/",
+    href: "https://github.com/mtereshchuk/",
     aria: "Visit my Github profile",
     icon: <Github />,
     label: "Github",
   },
   {
-    href: "https://www.linkedin.com/in/birkagal/",
+    href: "https://www.linkedin.com/in/mtereshchuk/",
     aria: "Visit my Linkedin profile",
     icon: <Linkedin />,
     label: "Linkedin",
@@ -20,7 +20,7 @@ export const buttonsData = [
     label: "Resume",
   },
   {
-    href: "mailto:birkagal@gmail.com",
+    href: "mailto:job@mtereshchuk.com",
     aria: "Send me an email",
     icon: <Email />,
     label: "Email",

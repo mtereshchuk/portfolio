@@ -35,10 +35,10 @@ const Footer = () => {
   return (
     <F.Container isMobile={isMobile}>
       <FadeInRightDiv>
-        <F.Text theme={theme} aria-label="Designed and built by Gal Birka">
+        <F.Text theme={theme} aria-label="Designed and built by Maksim Tereshchuk">
           Designed and built by&nbsp;
-          <F.Link theme={theme} href="https://www.birkagal.com/">
-            Gal Birka
+          <F.Link theme={theme} href="https://www.mtereshchuk.com/">
+            Maksim Tereshchuk
           </F.Link>
           {isMobile || (
             /* display source link only if isMobile is FALSE */
@@ -47,7 +47,7 @@ const Footer = () => {
               <F.Link
                 theme={theme}
                 aria-label="Source code"
-                href="https://github.com/birkagal/birkagal.github.io"
+                href="https://github.com/mtereshchuk/mtereshchuk.github.io"
               >
                 Source
               </F.Link>
